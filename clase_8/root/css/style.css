@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(235, 238, 230);
+    margin: 0;
+    font-family: 'Hubballi', cursive;
+}
+
+header {
+    height: 150px;
+    border-bottom: 10px double white;
+    background-image: url('/imgs/desktop.jpg');
+    background-size: cover;
+}
+
+main{
+    height: 400px;
+}
+
+.top {
+    margin: 50px 0 30px 20px;
+    text-align: center;
+}
+
+.foto-candidata {
+    width: 150px;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+nav {
+    background-color: rgb(149, 168, 117);
+    padding: 10px;
+    text-align: center;
+}
+
+.boton-menu {
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.parrafos {
+    padding: 50px;
+    color: rgb(69, 77, 57);
+    font-size: 18px;
+}
+
+
+footer {
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    padding: 12px 0 0 0 ;
+}
+
+footer i {
+    padding-inline: 20px;
+    vertical-align: middle;
+    color: rgb(149, 168, 117);;
+}
+
