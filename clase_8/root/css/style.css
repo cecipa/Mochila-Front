@@ -10,7 +10,7 @@ body {
 header {
     height: 150px;
     border-bottom: 10px double white;
-    background-image: url('/imgs/desktop.jpg');
+    background-image: url('../imgs/desktop.jpg');
     background-size: cover;
 }
 
