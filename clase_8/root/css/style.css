@@ -2,6 +2,9 @@ body {
     background-color: rgb(235, 238, 230);
     margin: 0;
     font-family: 'Hubballi', cursive;
+    font-size: 18px;
+    color: rgb(69, 77, 57);
+    font-size: 18px;
 }
 
 header {
@@ -15,8 +18,18 @@ main{
     height: 400px;
 }
 
+.datos-personales, .formacion-academica, .experiencia-laboral {
+    padding: 20px 0 0 50px;
+
+}
+
+li {
+    position: relative;
+    left: -40px;
+}
+
 .top {
-    margin: 50px 0 30px 20px;
+    margin: 50px 0 30px 0px;
     text-align: center;
 }
 
@@ -34,17 +47,23 @@ nav {
 
 .boton-menu {
     color: rgb(255, 255, 255);
-    margin-left: 20px;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
 
+span {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    line-height: 22px;
+}
+
 .parrafos {
     padding: 50px;
-    color: rgb(69, 77, 57);
-    font-size: 18px;
 }
 
 
@@ -53,6 +72,9 @@ footer {
     background-color: white;
     text-align: center;
     padding: 12px 0 0 0 ;
+    position: fixed;
+    bottom:0px;
+    width: 100%;
 }
 
 footer i {
