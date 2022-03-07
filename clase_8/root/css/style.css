@@ -14,13 +14,12 @@ header {
     background-size: cover;
 }
 
-main{
-    height: 400px;
+main {
+    margin-bottom: 100px;
 }
 
 .datos-personales, .formacion-academica, .experiencia-laboral {
     padding: 20px 0 0 50px;
-
 }
 
 li {
