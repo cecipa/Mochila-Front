@@ -5,8 +5,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
+main {
+    height: 100vh;
+}
+
 header {
     box-shadow: 0px 6px 4px 1px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top:0px;
+    z-index: 2;
 }
 
 #barra-anuncios {
@@ -58,12 +65,12 @@ header {
     border-radius: 20px 20px 0 0;
 }
 
-.batmanx {
+.batman {
     background-image: url(../imgs/fondo_batman.png);
 
 }
 
-.quinnx {
+.quinn {
     background-image: url(../imgs/fondo_quinn.png);
 
 }
@@ -120,8 +127,6 @@ footer {
     color: #F3F3F3;
     align-items: center;
     padding-left: 40px;
-    position: fixed;
-    bottom: 0%;
 }
 
 span {
